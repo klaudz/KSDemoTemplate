@@ -13,6 +13,8 @@
 		6391D93D27413BD40085C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6391D93C27413BD40085C89E /* Assets.xcassets */; };
 		6391D94027413BD40085C89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391D93E27413BD40085C89E /* LaunchScreen.storyboard */; };
 		6391D94327413BD40085C89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D94227413BD40085C89E /* main.m */; };
+		6391D94C27414B370085C89E /* KSViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D94B27414B370085C89E /* KSViewSection.m */; };
+		6391D94F27414B420085C89E /* KSViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D94E27414B420085C89E /* KSViewItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		6391D93F27413BD40085C89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6391D94127413BD40085C89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6391D94227413BD40085C89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6391D94A27414B370085C89E /* KSViewSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewSection.h; sourceTree = "<group>"; };
+		6391D94B27414B370085C89E /* KSViewSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewSection.m; sourceTree = "<group>"; };
+		6391D94D27414B420085C89E /* KSViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewItem.h; sourceTree = "<group>"; };
+		6391D94E27414B420085C89E /* KSViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +71,24 @@
 				6391D93427413BD20085C89E /* KSSceneDelegate.m */,
 				6391D93627413BD20085C89E /* KSRootViewController.h */,
 				6391D93727413BD20085C89E /* KSRootViewController.m */,
+				6391D94927414B0C0085C89E /* Table */,
 				6391D93C27413BD40085C89E /* Assets.xcassets */,
 				6391D93E27413BD40085C89E /* LaunchScreen.storyboard */,
 				6391D94127413BD40085C89E /* Info.plist */,
 				6391D94227413BD40085C89E /* main.m */,
 			);
 			path = KSDemoTemplate;
+			sourceTree = "<group>";
+		};
+		6391D94927414B0C0085C89E /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				6391D94A27414B370085C89E /* KSViewSection.h */,
+				6391D94B27414B370085C89E /* KSViewSection.m */,
+				6391D94D27414B420085C89E /* KSViewItem.h */,
+				6391D94E27414B420085C89E /* KSViewItem.m */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6391D94C27414B370085C89E /* KSViewSection.m in Sources */,
 				6391D93827413BD20085C89E /* KSRootViewController.m in Sources */,
 				6391D93227413BD20085C89E /* KSAppDelegate.m in Sources */,
+				6391D94F27414B420085C89E /* KSViewItem.m in Sources */,
 				6391D94327413BD40085C89E /* main.m in Sources */,
 				6391D93527413BD20085C89E /* KSSceneDelegate.m in Sources */,
 			);
