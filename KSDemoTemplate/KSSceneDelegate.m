@@ -1,23 +1,41 @@
 //
-//  SceneDelegate.m
+//  KSSceneDelegate.m
 //  KSDemoTemplate
 //
 //  Created by Klaudz on 2021/11/14.
 //
 
-#import "SceneDelegate.h"
+#import "KSSceneDelegate.h"
 
-@interface SceneDelegate ()
+#import "KSRootViewController.h"
+
+@interface KSSceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
+@implementation KSSceneDelegate
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    UIWindowScene *windowScene = nil;
+    if ([scene isKindOfClass:[UIWindowScene class]]) {
+        windowScene = (UIWindowScene *)scene;
+    }
+    if (windowScene == nil) {
+        return;
+    }
+    
+    KSRootViewController *rootViewController = [[KSRootViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    UIWindow *window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    window.rootViewController = navigationController;
+    self.window = window;
+    [self.window makeKeyAndVisible];
 }
 
 

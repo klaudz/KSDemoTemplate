@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6391D93227413BD20085C89E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93127413BD20085C89E /* AppDelegate.m */; };
-		6391D93527413BD20085C89E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93427413BD20085C89E /* SceneDelegate.m */; };
-		6391D93827413BD20085C89E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93727413BD20085C89E /* ViewController.m */; };
-		6391D93B27413BD20085C89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391D93927413BD20085C89E /* Main.storyboard */; };
+		6391D93227413BD20085C89E /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93127413BD20085C89E /* KSAppDelegate.m */; };
+		6391D93527413BD20085C89E /* KSSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93427413BD20085C89E /* KSSceneDelegate.m */; };
+		6391D93827413BD20085C89E /* KSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D93727413BD20085C89E /* KSRootViewController.m */; };
 		6391D93D27413BD40085C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6391D93C27413BD40085C89E /* Assets.xcassets */; };
 		6391D94027413BD40085C89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391D93E27413BD40085C89E /* LaunchScreen.storyboard */; };
 		6391D94327413BD40085C89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D94227413BD40085C89E /* main.m */; };
@@ -18,13 +17,12 @@
 
 /* Begin PBXFileReference section */
 		6391D92D27413BD20085C89E /* KSDemoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSDemoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6391D93027413BD20085C89E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6391D93127413BD20085C89E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6391D93327413BD20085C89E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6391D93427413BD20085C89E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6391D93627413BD20085C89E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6391D93727413BD20085C89E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6391D93A27413BD20085C89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6391D93027413BD20085C89E /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		6391D93127413BD20085C89E /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		6391D93327413BD20085C89E /* KSSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSceneDelegate.h; sourceTree = "<group>"; };
+		6391D93427413BD20085C89E /* KSSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSceneDelegate.m; sourceTree = "<group>"; };
+		6391D93627413BD20085C89E /* KSRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSRootViewController.h; sourceTree = "<group>"; };
+		6391D93727413BD20085C89E /* KSRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSRootViewController.m; sourceTree = "<group>"; };
 		6391D93C27413BD40085C89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6391D93F27413BD40085C89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6391D94127413BD40085C89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,13 +59,12 @@
 		6391D92F27413BD20085C89E /* KSDemoTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				6391D93027413BD20085C89E /* AppDelegate.h */,
-				6391D93127413BD20085C89E /* AppDelegate.m */,
-				6391D93327413BD20085C89E /* SceneDelegate.h */,
-				6391D93427413BD20085C89E /* SceneDelegate.m */,
-				6391D93627413BD20085C89E /* ViewController.h */,
-				6391D93727413BD20085C89E /* ViewController.m */,
-				6391D93927413BD20085C89E /* Main.storyboard */,
+				6391D93027413BD20085C89E /* KSAppDelegate.h */,
+				6391D93127413BD20085C89E /* KSAppDelegate.m */,
+				6391D93327413BD20085C89E /* KSSceneDelegate.h */,
+				6391D93427413BD20085C89E /* KSSceneDelegate.m */,
+				6391D93627413BD20085C89E /* KSRootViewController.h */,
+				6391D93727413BD20085C89E /* KSRootViewController.m */,
 				6391D93C27413BD40085C89E /* Assets.xcassets */,
 				6391D93E27413BD40085C89E /* LaunchScreen.storyboard */,
 				6391D94127413BD40085C89E /* Info.plist */,
@@ -103,6 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = KS;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					6391D92C27413BD20085C89E = {
@@ -135,7 +133,6 @@
 			files = (
 				6391D94027413BD40085C89E /* LaunchScreen.storyboard in Resources */,
 				6391D93D27413BD40085C89E /* Assets.xcassets in Resources */,
-				6391D93B27413BD20085C89E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +143,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6391D93827413BD20085C89E /* ViewController.m in Sources */,
-				6391D93227413BD20085C89E /* AppDelegate.m in Sources */,
+				6391D93827413BD20085C89E /* KSRootViewController.m in Sources */,
+				6391D93227413BD20085C89E /* KSAppDelegate.m in Sources */,
 				6391D94327413BD40085C89E /* main.m in Sources */,
-				6391D93527413BD20085C89E /* SceneDelegate.m in Sources */,
+				6391D93527413BD20085C89E /* KSSceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6391D93927413BD20085C89E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6391D93A27413BD20085C89E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6391D93E27413BD40085C89E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,9 +288,9 @@
 				INFOPLIST_FILE = KSDemoTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,9 +315,9 @@
 				INFOPLIST_FILE = KSDemoTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
